@@ -1,0 +1,20 @@
+#contact {
+	background: var(--colorPrimaryYellow);
+}
+
+.contact-cards {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.contact-card {
+	display: flex;
+	flex-direction: column;
+	width: 33vmin;
+	border: 2px solid var(--colorPrimaryDark);
+}
+
+.contact-card-container {
+	padding: 20px;
+}
