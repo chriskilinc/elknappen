@@ -1,5 +1,6 @@
 :root {
 	--colorPrimaryDark: #282c34;
+	--colorWhite: #f7f8f9;
 	--colorPrimaryYellow: #ffcb5a;
 	--colorSecondary: #ff5a64;
 	--colorBlue: #5a8eff;
@@ -40,6 +41,7 @@
 header {
 	display: flex;
 	justify-content: space-between;
+	padding: 1em 0;
 	/* background: var(--colorPrimaryDark); */
 }
 header .item {
@@ -94,21 +96,34 @@ button[type=button] {
 	border: 3px solid;
 	padding: 12px 24px;
 	border-radius: 25px;
+	font-weight: 800;
 	cursor: pointer;
 	background-color: transparent;
 
 }
+
 button[type=button].primary {
-	/* background-color: var(--colorPrimaryDark); */
+	background-color: var(--colorPrimaryDark);
 	border-color: var(--colorPrimaryDark);
-	color: var(--colorPrimaryDark);
-	font-weight: 800;
+	color: var(--colorWhite);
 }
 
 button[type=button].primary:hover {
 	border-color: var(--colorSecondary);
 	color: var(--colorSecondary);
 }
+
+button[type=button].secondary {
+	/* background-color: var(--colorPrimaryDark); */
+	border-color: var(--colorPrimaryDark);
+	color: var(--colorPrimaryDark);
+}
+
+button[type=button].secondary:hover {
+	border-color: var(--colorSecondary);
+	color: var(--colorSecondary);
+}
+
 
 @keyframes slideUpDown {
 	0% {
