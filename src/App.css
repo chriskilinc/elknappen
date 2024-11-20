@@ -123,3 +123,8 @@ header a:hover {
 .checkmark-list li {
   padding-inline-start: 1ch;
 }
+
+.client-img {
+  object-fit: contain;
+  width: 150px;
+}

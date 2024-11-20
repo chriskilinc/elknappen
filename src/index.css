@@ -132,6 +132,11 @@ p {
   color: var(--color-darker);
 }
 
+.bg-lightest {
+  background-color: var(--color-lightest);
+  color: var(--color-darkest);
+}
+
 /* Buttons */
 
 button {
@@ -195,6 +200,26 @@ button.primary:hover {
   gap: var(--size-smallest);
 }
 
+.gap-smaller {
+  gap: var(--size-smaller);
+}
+
+.gap-small {
+  gap: var(--size-small);
+}
+
+.gap-medium-small {
+  gap: var(--size-medium-small);
+}
+
+.gap-medium {
+  gap: var(--size-medium);
+}
+
+.border-radius {
+  border-radius: var(--border-radius);
+}
+
 .w-100 {
   width: 100%;
 }
@@ -205,6 +230,14 @@ button.primary:hover {
 
 .p-medium {
   padding: var(--size-medium);
+}
+
+.p-large {
+  padding: var(--size-large);
+}
+
+.p-larger {
+  padding: var(--size-larger);
 }
 
 .ptb-small {
@@ -258,6 +291,14 @@ button.primary:hover {
 }
 
 @media (min-width: 768px) {
+  .md-gap-smaller {
+    gap: var(--size-smaller);
+  }
+  
+  .md-gap-small {
+    gap: var(--size-small);
+  }  
+
   .md-p-smaller {
     padding: var(--size-smaller);
   }
@@ -268,6 +309,14 @@ button.primary:hover {
 
   .md-p-medium {
     padding: var(--size-medium);
+  }
+
+  .md-p-large {
+    padding: var(--size-large);
+  }
+
+  .md-p-larger {
+    padding: var(--size-larger);
   }
 
   .md-ptb-medium {
@@ -301,6 +350,22 @@ button.primary:hover {
 
   .md-mb-small {
     margin-bottom: var(--size-small);
+  }
+
+  .md-mb-medium-small {
+    margin-bottom: var(--size-medium-small);
+  }
+
+  .md-mb-medium {
+    margin-bottom: var(--size-medium);
+  }
+
+  .md-mb-large {
+    margin-bottom: var(--size-large);
+  }
+
+  .md-mb-larger {
+    margin-bottom: var(--size-larger);
   }
 
   .md-mb-medium-smaller {

@@ -86,6 +86,36 @@ export const Main = () => {
                     </div>
                 </div>
             </section>
+
+            <section className='section bg-light ptb-large'>
+                <div className='container'>
+                    <div className='flex flex-column align-center clients p-small md-p-larger bg-lightest border-radius'>
+                        <p className='mb-small md-mb-large'>Våra sammarbeten</p>
+                        <div className='flex flex-wrap justify-center gap-smaller md-gap-medium'>
+                            <img className='client-img' decoding="async"
+                                src="https://2024.wordpress.net/wp-content/uploads/2023/09/Client-Logo-1.png"
+                                alt="Tourist taking photo of a building">
+                            </img>
+                            <img className='client-img' decoding="async"
+                                src="https://2024.wordpress.net/wp-content/uploads/2023/09/Client-Logo-2.png"
+                                alt="Tourist taking photo of a building">
+                            </img>
+                            <img className='client-img' decoding="async"
+                                src="https://2024.wordpress.net/wp-content/uploads/2023/09/Client-Logo-3.png"
+                                alt="Tourist taking photo of a building">
+                            </img>
+                            <img className='client-img' decoding="async"
+                                src="https://2024.wordpress.net/wp-content/uploads/2023/09/Client-Logo-4.png"
+                                alt="Tourist taking photo of a building">
+                            </img>
+                            <img className='client-img' decoding="async"
+                                src="https://2024.wordpress.net/wp-content/uploads/2023/09/Client-Logo-5.png"
+                                alt="Tourist taking photo of a building">
+                            </img>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
     );
 }
