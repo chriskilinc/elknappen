@@ -1,16 +1,125 @@
-.header {
-  display: flex;
-  background-color: #282c34;
-  width: 100vw;
-  height: 7.5rem;
-  align-items: center;
-  color: white;
-}
-
-.header .container {
+.section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+.container {
   width: 100%;
-  padding: 0 2rem;
+  max-width: 75rem;
+  margin: auto;
+}
+
+.header {
+  align-items: center;
+  line-height: 26px;
+}
+
+.header .section {
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding-right: var(--size-larger);
+    padding-left: var(--size-larger);
+  }
+
+  .header .section {
+    padding-right: var(--size-medium);
+    padding-left: var(--size-medium);
+  }
+}
+
+.header nav p {
+  font-weight: 500;
+}
+
+.company-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.company-title a {
+  font-weight: 600;
+}
+
+.header nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  flex-wrap: wrap;
+  /*  maybe remove wrap later */
+}
+
+header a:hover {
+  color: var(--color-red);
+}
+
+.main .section {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer .title:hover {
+  color: var(--color-lightest);
+  cursor: pointer;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-small);
+  align-self: center;
+}
+
+.box {
+  width: 100%;
+  padding: var(--size-medium);
+  background-color: var(--color-lightest);
+  color: var(--color-dark);
+  border-radius: var(--border-radius);
+}
+
+@media screen and (min-width: 768px) {
+  .box {
+    flex-basis: 32%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .box {
+    flex-basis: 38%;
+  }
+}
+
+.columns {
+  display: flex;
+  gap: 1.25rem;
+  flex-direction: column;
+
+}
+
+.column {
+  flex-basis: 50%;
+  align-self: center;
+}
+
+@media (min-width: 768px) {
+  .columns {
+    flex-direction: row;
+  }
+}
+
+.checkmark-list {
+  list-style-type: "\2713";
+  margin-block-end: 0;
+}
+
+.checkmark-list li {
+  padding-inline-start: 1ch;
 }
