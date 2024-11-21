@@ -8,10 +8,9 @@ export const Header = () => {
                     </div>
                     <nav>
                         <ul>
-                            <li><a href="#">Start</a></li>
-                            <li><a href="#">Tjänster</a></li>
-                            <li><a href="#">Företaget</a></li>
-                            <li><a href="#">Kontakt</a></li>
+                            <li><a href="#services">Tjänster</a></li>
+                            <li><a href="#company">Företaget</a></li>
+                            <li><a href="#contact">Kontakt</a></li>
                         </ul>
                     </nav>
                 </div>

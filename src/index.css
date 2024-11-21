@@ -111,6 +111,10 @@ p {
   max-width: 37.5rem;
 }
 
+.font-serif {
+  font-family: "Cardo", serif;
+}
+
 /* Colors */
 
 .color-red {
@@ -135,6 +139,10 @@ p {
 .bg-lightest {
   background-color: var(--color-lightest);
   color: var(--color-darkest);
+}
+
+.hover-light:hover {
+  color: var(--color-light);
 }
 
 /* Buttons */
@@ -255,6 +263,11 @@ button.primary:hover {
   padding-bottom: var(--size-large);
 }
 
+.ptb-larger {
+  padding-top: var(--size-larger);
+  padding-bottom: var(--size-larger);
+}
+
 .prl-small {
   padding-right: var(--size-small);
   padding-left: var(--size-small);
@@ -327,6 +340,11 @@ button.primary:hover {
   .md-ptb-large {
     padding-top: var(--size-large);
     padding-bottom: var(--size-large);
+  }
+
+  .md-ptb-larger {
+    padding-top: var(--size-larger);
+    padding-bottom: var(--size-larger);
   }
 
   .md-prl-small {
