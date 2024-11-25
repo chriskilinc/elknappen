@@ -1,10 +1,12 @@
+import logo from '../../../images/logo.webp';
+
 export const Header = () => {
     return (
         <header className="header">
             <section className='section'>
                 <div className='flex align-center justify-between p-small'>
                     <div>
-                        <p className='company-title'><a href='#'>El Knappen AB</a></p>
+                        <a href='#'><img style={{ height: "60px", background: "none" }} src={logo}></img></a>
                     </div>
                     <nav>
                         <ul>
