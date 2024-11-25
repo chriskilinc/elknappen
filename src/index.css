@@ -1,3 +1,26 @@
+@font-face {
+  font-family: "Inter Variable";
+  src: url("./assets/fonts/Inter/Inter-variable.ttf");
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: "Cardo";
+  src: url("./assets/fonts/Cardo/Cardo-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Cardo Bold";
+  src: url("./assets/fonts/Cardo/Cardo-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Cardo Italic";
+  src: url("./assets/fonts/Cardo/Cardo-Italic.ttf");
+  font-style: italic;
+}
+
 :root {
   --color-darkest: #111;
   --color-darker: #1a1a1a;
@@ -16,7 +39,7 @@
   --size-large: 4rem;
   --size-larger: 6rem;
 
-  font-family: Inter, sans-serif;
+  font-family: Inter Variable, sans-serif;
   line-height: 1.55;
   font-size: 16.8px;
   font-weight: 400;
@@ -70,6 +93,15 @@ h6 {
   margin: 0 0 1.25rem 0;
 }
 
+h1 i,
+h2 i,
+h3 i,
+h4 i,
+h5 i,
+h6 i {
+  font-family: "Cardo Italic", serif;
+}
+
 h1 {
   font-size: 2.25rem;
   line-height: 1.1;
@@ -96,6 +128,7 @@ a {
   text-decoration: inherit;
   transition: color 0.2s ease;
 }
+
 
 /* a:hover {
   color: #535bf2;
@@ -307,10 +340,10 @@ button.primary:hover {
   .md-gap-smaller {
     gap: var(--size-smaller);
   }
-  
+
   .md-gap-small {
     gap: var(--size-small);
-  }  
+  }
 
   .md-p-smaller {
     padding: var(--size-smaller);
