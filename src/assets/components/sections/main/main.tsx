@@ -1,9 +1,9 @@
-import image from "../../../images/electric-panel.png";
-import ahlsell from "../../../images/ahlsell.png";
-import apq from "../../../images/apq.png";
-import dipart from "../../../images/dipart.png";
-import elektroskandia from "../../../images/elektroskandia.png";
-import solar from "../../../images/solar.png";
+import image from "../../../images/electric-panel.webp";
+import SVGahlsell from "../../../images/ahlsell.svg";
+import SVGapq from "../../../images/apq.svg";
+import SVGdipart from "../../../images/dipart.svg";
+import SVGelektroskandia from "../../../images/elektroskandia.svg";
+import SVGsolar from "../../../images/solar.svg";
 
 export const Main = () => {
     return (
@@ -99,25 +99,25 @@ export const Main = () => {
                     <div className='flex flex-column align-center clients p-small md-p-larger bg-lightest border-radius'>
                         <h3 className='mb-small md-mb-large'><i>Våra Sammarbeten</i></h3>
                         <div className='flex flex-wrap justify-center gap-smaller md-gap-medium' style={{ filter: "grayscale(1)" }}>
-                            <img className='client-img' decoding="async"
-                                src={ahlsell}
+                            <img width={150} className='client-img' decoding="async"
+                                src={SVGahlsell}
                                 alt="Tourist taking photo of a building">
                             </img>
-                            <img className='client-img' decoding="async"
-                                src={apq}
+                            <img width={150} className='client-img' decoding="async"
+                                src={SVGapq}
                                 alt="Tourist taking photo of a building"
                                 style={{ scale: "0.75" }}>
                             </img>
-                            <img className='client-img' decoding="async"
-                                src={dipart}
+                            <img width={150} className='client-img' decoding="async"
+                                src={SVGdipart}
                                 alt="Tourist taking photo of a building">
                             </img>
-                            <img className='client-img' decoding="async"
-                                src={elektroskandia}
+                            <img width={150} className='client-img' decoding="async"
+                                src={SVGelektroskandia}
                                 alt="Tourist taking photo of a building">
                             </img>
-                            <img className='client-img' decoding="async"
-                                src={solar}
+                            <img width={150} className='client-img' decoding="async"
+                                src={SVGsolar}
                                 alt="Tourist taking photo of a building"
                                 style={{ scale: "0.75" }}>
                             </img>
@@ -125,7 +125,6 @@ export const Main = () => {
                     </div>
                 </div>
             </section>
-
         </main>
     );
 }
