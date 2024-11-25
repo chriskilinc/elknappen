@@ -67,7 +67,7 @@ export const Main = () => {
                             </ul>
                         </div>
                         <div className='column'>
-                            <img decoding="async"
+                            <img loading="lazy" decoding="async"
                                 src={image}
                                 title="An electrical panel with an electric meter on the wall, with green plants near it"
                                 alt="An electrical panel with an electric meter on the wall, with green plants near it.">
@@ -102,37 +102,37 @@ export const Main = () => {
                     <div className='flex flex-column align-center clients p-small md-p-larger bg-lightest border-radius'>
                         <h3 className='mb-small md-mb-large'><i>Våra Sammarbeten</i></h3>
                         <div className='flex flex-wrap justify-center gap-smaller md-gap-medium' style={{ filter: "grayscale(1)" }}>
-                            <img width={150} className='client-img' decoding="async"
+                            <img loading="lazy" width={150} className='client-img' decoding="async"
                                 src={SVGahlsell}
                                 alt="Tourist taking photo of a building">
                             </img>
-                            <img width={150} className='client-img' decoding="async"
+                            <img loading="lazy" width={150} className='client-img' decoding="async"
                                 src={SVGapq}
                                 alt="APQ logo"
                                 style={{ scale: "0.75" }}>
                             </img>
-                            <img width={150} className='client-img' decoding="async"
+                            <img loading="lazy" width={150} className='client-img' decoding="async"
                                 src={SVGdipart}
                                 alt="Dipart logo">
                             </img>
-                            <img width={150} className='client-img' decoding="async"
+                            <img loading="lazy" width={150} className='client-img' decoding="async"
                                 src={SVGelektroskandia}
                                 alt="Elektroskandia logo">
                             </img>
-                            <img width={150} className='client-img' decoding="async"
+                            <img loading="lazy" width={150} className='client-img' decoding="async"
                                 src={SVGsolar}
                                 alt="Solar logo"
                                 style={{ scale: "0.75" }}>
                             </img>
-                            <img width={150} className='client-img' decoding="async"
+                            <img loading="lazy" width={150} className='client-img' decoding="async"
                                 src={bravida}
                                 alt="Bravida logo">
                             </img>
-                            <img width={150} className='client-img' decoding="async"
+                            <img loading="lazy" width={150} className='client-img' decoding="async"
                                 src={peab}
                                 alt="PEAB logo">
                             </img>
-                            <img width={150} className='client-img' decoding="async"
+                            <img loading="lazy" width={150} className='client-img' decoding="async"
                                 src={skanska}
                                 alt="Skanska logo">
                             </img>
