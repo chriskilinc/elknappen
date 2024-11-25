@@ -14,7 +14,7 @@ export const Main = () => {
                         <strong className='color-red'>El Knappen Ab</strong>
                         <h1>Behörig Elektriker i Stockholm</h1>
                         <p style={{ margin: 0 }}>Hör av dig så hjälper vi dig!</p>
-                        <p>+46 736 64 72 93</p>
+                        <p>+46 73 434 62 54</p>
                     </div>
                     {/* <div className='flex gap-smallest'>
                         <button className='primary'>Våra Tjänster</button>
