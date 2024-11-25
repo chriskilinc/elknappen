@@ -6,7 +6,7 @@ export const Header = () => {
             <section className='section'>
                 <div className='flex align-center justify-between p-small'>
                     <div>
-                        <a href='#'><img style={{ height: "60px", background: "none" }} src={logo}></img></a>
+                        <a href='#'><img title='Elknappen Ab' alt='Elknappen Ab Logo' style={{ height: "60px", background: "none" }} src={logo}></img></a>
                     </div>
                     <nav>
                         <ul>
