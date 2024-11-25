@@ -4,6 +4,9 @@ import SVGapq from "../../../images/apq.svg";
 import SVGdipart from "../../../images/dipart.svg";
 import SVGelektroskandia from "../../../images/elektroskandia.svg";
 import SVGsolar from "../../../images/solar.svg";
+import bravida from "../../../images/bravida.png";
+import peab from "../../../images/peab.png";
+import skanska from "../../../images/skanska.png";
 
 export const Main = () => {
     return (
@@ -105,21 +108,33 @@ export const Main = () => {
                             </img>
                             <img width={150} className='client-img' decoding="async"
                                 src={SVGapq}
-                                alt="Tourist taking photo of a building"
+                                alt="APQ logo"
                                 style={{ scale: "0.75" }}>
                             </img>
                             <img width={150} className='client-img' decoding="async"
                                 src={SVGdipart}
-                                alt="Tourist taking photo of a building">
+                                alt="Dipart logo">
                             </img>
                             <img width={150} className='client-img' decoding="async"
                                 src={SVGelektroskandia}
-                                alt="Tourist taking photo of a building">
+                                alt="Elektroskandia logo">
                             </img>
                             <img width={150} className='client-img' decoding="async"
                                 src={SVGsolar}
-                                alt="Tourist taking photo of a building"
+                                alt="Solar logo"
                                 style={{ scale: "0.75" }}>
+                            </img>
+                            <img width={150} className='client-img' decoding="async"
+                                src={bravida}
+                                alt="Bravida logo">
+                            </img>
+                            <img width={150} className='client-img' decoding="async"
+                                src={peab}
+                                alt="PEAB logo">
+                            </img>
+                            <img width={150} className='client-img' decoding="async"
+                                src={skanska}
+                                alt="Skanska logo">
                             </img>
                         </div>
                     </div>

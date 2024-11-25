@@ -133,4 +133,5 @@ header a:hover {
 .client-img {
   object-fit: contain;
   width: 150px;
+  border-radius: 0;
 }
