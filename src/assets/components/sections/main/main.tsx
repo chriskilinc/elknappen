@@ -36,16 +36,15 @@ export const Main = () => {
                     </p>
                     <div className='boxes flex flex-wrap justify-center'>
                         <div className='box'>
-                            <h3>Nätverk och Fiber
-                            </h3>
-                            <p>Vi hjälper dig med installation av eluttag, belysning, maskiner och mycket mer.</p>
+                            <h3>Nätverk och Fiber</h3>
+                            <p>Vi utför fiberdragnings installation och reparation. Kontaktering och svettsning</p>
                         </div>
                         <div className='box'>
                             <h3>Reparationer</h3>
                             <p>Installation samt service av nytt och gammalt. Kabeldragning, Uppkopplingar samt Förlängning</p>
                         </div>
                         <div className='box'>
-                            <h3>Larm</h3>
+                            <h3>Larm & Kameraövervakning</h3>
                             <p>Vi utför projektering och installationer av säkerhetslösningar</p>
                         </div>
                         <div className="box">
@@ -80,9 +79,8 @@ export const Main = () => {
             <section id="company" className='section bg-light ptb-large'>
                 <div className='container'>
                     <h2>Företaget</h2>
-                    <strong><p style={{ marginBottom: 0 }}>Det här är El Knappen.
-                    </p></strong>
-                    <p className='mb-medium-small md-mb-medium'>Erfaren, utbildad och behörig elektriker. Både i Sverige och utomlands sedan 45 år tillbaka.</p>
+                    <strong><p style={{ marginBottom: 0 }}>Det här är El Knappen.</p></strong>
+                    <p className='mb-medium-small md-mb-medium'>Erfaren, utbildad och behörig elektriker. Både i Sverige och utomlands sedan 50 år tillbaka.</p>
 
                     <div className='boxes flex flex-wrap justify-center'>
                         <div className='box'>
